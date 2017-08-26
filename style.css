@@ -1,0 +1,55 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: silver;
+	font: 16px helvetica;
+}
+h3{
+	text-align: center;
+	color: #333;
+	margin-top: 60px;
+}
+#todo{
+	max-width: 400px;
+	margin: 20px auto;
+	height: auto;
+	background: #fff;
+	padding: 30px;
+	border-radius: 5px;
+}
+#todo #todoinput{
+	width: 100%;
+	height: 30px;
+}
+#todo #input{
+	width: 54%;
+	height: 100%;
+	padding-left: 5px;
+	border: 1px solid #ccc;
+	font-size: 14px;
+}
+#todo select{
+	height: 100%;
+	width: 23%;
+	background: #fff;
+	border: 1px solid #1257af;
+	font-size: 14px;
+}
+#todo button{
+	width: 17%;
+	height: 100%;
+	margin: 0;
+	font-size: 14px;
+	color: #fff;
+	background: #1257af;
+	border: 1px solid #ccc;
+}
+#todo #output{
+	/*border: 1px solid #ccc;*/
+	margin-top: 30px;
+	height: auto;
+}
+#output div{
+	border: 1px solid #ccc;
+	padding: 10px;
+}
