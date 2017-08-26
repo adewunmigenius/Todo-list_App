@@ -1,10 +1,9 @@
-// console.log(alert("how far"));
 var button = document.getElementById("button");
 
 button.addEventListener("click", function(){
-	// console.log(alert("ok begin to do"));
 	var inputval = document.getElementById('input').value;
-	//document.getElementById('output').innerHTML = inputval;
+	
+	//get selected element 
 	var selectval = document.getElementById('select').value
 	//create a new div
 	var newdiv = document.createElement("div");
